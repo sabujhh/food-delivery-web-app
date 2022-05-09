@@ -1,0 +1,159 @@
+{% extends 'customer/base.html' %}
+
+{% block content %}
+
+<!-- Start Cover -->
+<div class = "cover">
+  <div class= "container landpage">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-sm-12 offset-md-4 text-center">
+            <h1>Online Food Delivery Service</h1>
+        </div>
+    </div>
+    <div class="row justify-content-center mt-1">
+        <div class="card col-md-5 col-sm-12 offset-md-4 p-4 text-center">
+            <h2>Place an Order!</h2>
+            <a href="{% url 'order' %}" class="btn btn-outline-dark">Order Now!</a>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- End cover-->
+
+<!-- Start Caption -->
+<div id= "course" class="offset">
+  <div class="col-12 narrow text-center m-5">
+       <h1>Get Your Food in Less Than One Hour</h1>
+       <p class="details">With FOODIE, get your food delivered
+        to your doorstep within an hour!</p>
+        <a class = "btn btn-dark btn-md" href="#">Order Your Food</a>
+  </div>
+</div>
+<hr>
+<!-- End Caption-->
+
+<!--Start Features-->
+<div class="features" class="offset">
+   <div class=" shadow-none jumbotron">
+     <div class="narrow">
+       
+      <div class="row text-center">
+        
+        <div class="col-md-4">
+          <div class="feature">
+            <img src="/media/fastest_delivery.jpg" class="rounded mx-auto d-block" style="width: 200px; height:200px">
+            <h3>Fastest Delivery</h3>
+            <p>Get your food delivered in less than an hour! That’s as fast as it can get.</p>
+          </div>
+        </div>
+         
+        <div class="col-md-4">
+          <div class="feature">
+            <img src="/media/food_items.jpg" class="rounded mx-auto d-block" style="width: 200px; height:200px;">
+            <h3>So Much to Choose From</h3>
+            <p>Find your favourite among the thousands of restaurants in our website.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="feature">
+            <img src="/media/offers_in_food.jpg" class="rounded mx-auto d-block" style="width: 200px; height:200px;">
+            <h3>Best Offers In Town!</h3>
+            <p>Get the best offers and combos at the best price only at Pathao Food!</p>
+          </div>
+        </div>
+      </div>
+      </div>
+   </div>
+</div>
+<!--End Features-->
+
+<!--Start fixed-background-->
+<div class="offset backgroundtwo">
+  <div class="fixed-background">
+    <div class = "row dark text-center">
+      
+      <div class="col-md-4 mt-5">
+        <h3>01</h3>
+        <img src="/media/select_food.jpg" class="rounded mx-auto d-block" style="width: 200px; height:200px;">
+          <h1 class="mt-2">Select and set your food</h1>
+          <p>Select the food you want from our menu.</p>
+      </div>
+      <div class="col-md-4 mt-5">
+        <h3>02</h3>
+        <img src="/media/confirm_order.jpg" class="rounded mx-auto d-block" style="width: 200px; height:200px;">     
+        <h1 class="mt-2">Confirm your order and wait</h1>
+        <p>Just confirm your order and enjoy our fastest delivery. Fresh and delicious food will be delivered to your doorstep.</p>
+      </div>
+      <div class="col-md-4 mt-5">
+        <h3>03</h3>
+        <img src="/media/payment2.jpg" class="rounded mx-auto d-block" style="width: 200px; height:200px;">
+        <h1 class="mt-2">Pay Cashless for your Food</h1>
+        <p>Have no cash? No worries! Pay digitally instead of cash.</p>
+      </div>
+
+    </div><!--end row dark-->
+      
+      <div class = "fixed-wrap">
+        <div class="fixed">
+
+        </div>
+      </div>
+    </div>
+</div>  
+
+<!--End fixed-background-->
+
+<!--Start Customer Review-->
+  <div class = "row mt-5 mb-4">
+    <div class="col-12 text-center">
+    <h3 class="heading">Our Clients</h3>
+    <div class = "heading-underline">
+  
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 clients">
+      <div class ="row">
+        <div class="col-md-4">
+          <img src='/media/client1.jpg'>
+        </div>
+        <div class="col-md-8 ">
+          <blockquote>
+            <i class="fas fa-quote-left"></i>
+            This cozy restaurant has left the best impressions! 
+            Hospitable hosts, delicious dishes, beautiful presentation, 
+            wide wine list and wonderful dessert. 
+            I recommend to everyone! I would like to come back here again and again.
+            <hr class="clients-hr">
+            <cite>&#8212;Eric, Small Business Center</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>  
+      
+    <div class="col-md-6 clients">
+      <div class ="row mb-5">
+        <div class="col-md-4">
+          <img src='/media/client3.jpg'> 
+       </div>
+       <div class="col-md-8">
+         <blockquote>
+           <i class="fas fa-quote-left"></i>
+           Excellent food. Menu is extensive and seasonal to a particularly high standard. 
+           Definitely fine dining. It can be expensive 
+           but worth it and they do different deals on different nights, 
+           so it’s worth checking them out before you book. Highly recommended.
+           <hr class="clients-hr">
+           <cite>&#8212;Adam, Software Engineer</cite>
+         </blockquote>
+       </div>
+      </div>
+    </div>
+
+  </div>
+<!--End Customer Review-->
+
+{% endblock content %}
