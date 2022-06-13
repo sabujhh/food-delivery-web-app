@@ -10,6 +10,8 @@ restaurant. Python (Django) is used in backend.
 
 ●	Admin panel for restaurant authority to update their food menu options in database
 
+●   Built backend Rest API using Django Rest Framework and demonstrated API calls using postman
+
 ### Live Website Link
 
 [http://sabujhh.pythonanywhere.com/](http://sabujhh.pythonanywhere.com/)

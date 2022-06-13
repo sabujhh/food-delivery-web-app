@@ -40,6 +40,9 @@ AUTHENTICATION_BACKENDS = [
 INSTALLED_APPS = [
     'customer',
     'restaurant',
+
+    'rest_framework',
+    'api',
     
     'crispy_forms',
     'allauth',
